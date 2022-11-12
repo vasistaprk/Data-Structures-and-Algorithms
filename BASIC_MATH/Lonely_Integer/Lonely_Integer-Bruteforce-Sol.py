@@ -1,5 +1,4 @@
 
-
 def lonelyinteger(a):
 
     for i in range(0,len(a)):
@@ -16,4 +15,9 @@ n = int(input().strip())
 a = list(map(int, input().rstrip().split()))
 result = lonelyinteger(a)
 print(result)
+
+"""
+This has Time complexity of O(N^2)
+This has Space complexity of O(1)
+"""
   

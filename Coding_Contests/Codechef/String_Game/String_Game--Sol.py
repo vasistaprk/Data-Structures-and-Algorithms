@@ -1,13 +1,18 @@
-t=int(input())
-for i in range(0,t):
-    n=int(input())
-    s=str(input())
-    
-    x=int(ord(s[0]))
-    for j in range(1,n):
-        x=x^int(ord(s[j]))
+
+def result(x) :
+    for i,j in x.items() :
+        if j%2 != 0:
+            return 'NO'
+    return 'YES'
+
+for _ in range(int(input())) :
+    n = int(input()) 
+    instr = input().strip()
+    d_ = {} 
+    for i in range(0,len(instr)) :
+        if instr[i] not in d_ :
+            d_[instr[i]] =  1
+        else :
+            d_[instr[i]] += 1 
+    print(result(d_))
         
-    if(x==0 and n!=1):
-        print("YES")
-    else:
-        print("NO")

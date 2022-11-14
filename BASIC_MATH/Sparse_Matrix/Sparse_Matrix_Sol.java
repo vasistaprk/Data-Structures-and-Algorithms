@@ -1,13 +1,13 @@
-import java.io.*;
+
 import java.util.*;
 
-public class Solution {
+public class Sparse_Matrix_Sol {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner io=new Scanner(System.in);
-        int n=io.nextInt();
-        int m=io.nextInt();
+        Scanner io =new Scanner(System.in);
+        int n= io.nextInt();
+        int m= io.nextInt();
         int count=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){

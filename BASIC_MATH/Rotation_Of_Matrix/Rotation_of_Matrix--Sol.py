@@ -33,5 +33,5 @@ for i in range(0,n):
     print()
 
 
-NOTE: Make sure the code is inside firsr for loop. "Indentation".             
+NOTE: Make sure the code is inside first for loop. "Indentation".             
 """

@@ -15,6 +15,7 @@ def bit_manipulation_method(arr,n):
         if(Count_i_1%3!=0):
             result+=(1<<i)
 
+    return(result)
 
 arr=list(map(int,input().split()))
 n=len(arr)
